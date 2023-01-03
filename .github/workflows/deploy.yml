@@ -6,10 +6,6 @@ on:
   pull_request:
     branches: [main]
 
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
-
 jobs:
   build_deploy:
     environment:
