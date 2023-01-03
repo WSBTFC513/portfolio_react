@@ -2,9 +2,9 @@ name: React Portfolio
 
 on:
   push:
-    branches: [master, gh-pages]
+    branches: [main]
   pull_request:
-    branches: [master, gh-pages]
+    branches: [main]
 
 jobs:
   build_test_deploy:
